@@ -1,8 +1,9 @@
 #header{
-	background: url("../img/background.jpg") no-repeat scroll center center #0088FF;
+	background: url("../img/background.jpg") no-repeat ;/*#0088FF*/
 }
 
-#navbar a{
+#nav-bar a{
 	color: #000D73;
-	font-size: 15px;
+	font-size: 17px;
+	font-family: sans-serif;
 }

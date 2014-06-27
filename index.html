@@ -17,8 +17,8 @@
 <body>
 <div class="row">
 		<div class="">
-			<nav id="header" class="navbar navbar-default" role="navigation">
-				<div class="container-fluid">
+			<nav class="navbar navbar-default" role="navigation">
+				<div id="header"  class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -27,31 +27,29 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">
-							<img src="img/logo.png" style="max-width:80%;" title="Call Us Free: 703-593-0687" />
+						<a class="navbar-brand" href="#" style="width:80%;">
+							<img src="img/logo.png" style="max-width: 100%;" />
 						</a>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div id="navbar" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<div class="navbar-form navbar-right" role="search">
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div id="nav-bar" class="navbar-form navbar-right" role="search">
 							<ul class="nav navbar-nav">
-								<li class="">
-									<a href="#">Services</a>
-								</li>
+								<li class=""><a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
 								<!-- <li class="disabled"><a href="#">Link</a></li> -->
-							</ul>							
+							</ul>
+							<ul class="nav navbar-nav">
+								<li class=""><a href="#">Services</a></li>
+								<!-- <li class="disabled"><a href="#">Link</a></li> -->
+							</ul>
 							<ul class="nav navbar-nav">
 								<li class=""><a href="#">Testimonials</a></li>
 								<!-- <li class="disabled"><a href="#">Link</a></li> -->
-							</ul>
-							<ul class="nav navbar-nav">
-								<li class=""><a href="#">Services Areas</a></li>
-								<!-- <li class="disabled"><a href="#">Link</a></li> -->
-							</ul>
-							<ul class="nav navbar-nav">
-								<li class=""><a href="#">Contact Us</a></li>
-								<!-- <li class="disabled"><a href="#">Link</a></li> -->
 							</ul>							
+							<ul class="nav navbar-nav">
+								<li class=""><a href="#">Contact US</a></li>
+								<!-- <li class="disabled"><a href="#">Link</a></li> -->
+							</ul>
 						</div>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
@@ -59,11 +57,59 @@
 		</div>
 	</div>
 
- dflkdlkfkl
+<div class="row">
+	<div class="col-md-12">
+		<ul class="bxslider">
+			<li><img src="img/banner/Ac-and-heating1.jpg" /></li>
+			<li><img src="img/banner/Carpet-cleaning2.jpg" /></li>	  
+			<li><img src="img/banner/Carrier-slider.jpg" /></li>
+			<li><img src="img/banner/duct-cleaning.jpg" /></li>
+			<li><img src="img/banner/Number-1-cleaning1.jpg" /></li>
+			<li><img src="img/banner/Vanessa-Cleaning-slide2.jpg" /></li>
+		</ul>
+	</div>
+</div>
+
+
+	<div class="row" style="text-align:center;background-color: #F16767;padding-top: 5%;padding-bottom: 5%;">
+		INTRODUCTION TEXT
+	</div>
+
+	<div class="row" style="background-color: #DEFF12;">
+		OUR SERVICES
+	</div>
+
+	<div class="row" style="background-color: #DEFF12;">
+		<div class="col-md-4" style="border: 1px solid black;padding-top: 5%;padding-bottom: 5%;text-alig:center;">
+			image service 1
+		</div>
+		<div class="col-md-4" style="border: 1px solid black;padding-top: 5%;padding-bottom: 5%;text-alig:center;padding-left:5px;">
+			image service 2
+		</div>
+		<div class="col-md-4" style="border: 1px solid black;padding-top: 5%;padding-bottom: 5%;text-alig:center;padding-left:5px;">
+			image service 3
+		</div>
+	</div>
+	<div class="row" style="background-color: #DEFF12;">
+		<div class="col-md-6" style="border: 1px solid black;padding-top: 5%;padding-bottom: 5%;text-alig:center;padding-left:5px;">
+			image service 4
+		</div>
+		<div class="col-md-6" style="border: 1px solid black;padding-top: 5%;padding-bottom: 5%;text-alig:center;padding-left:5px;">
+			image service 5
+		</div>		
+	</div>
 
 <footer class="row" style="background-color:#48CFAD">
-		<div class="row">
-			flkdlfdkldfkldf
+		<div class="row" style="text-align:center;">
+			<div class="col-md-4">
+				text
+			</div>
+			<div class="col-md-4">
+				text
+			</div>
+			<div class="col-md-4">
+				text
+			</div>
 		</div>    	
     	<div class="row">
     		<div class="col-md-4 col-xs-4">
@@ -88,5 +134,13 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script type="text/javascript" src="packages/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="packages/bxslider/bxslider.min.js"></script>
+
+<script type="text/javascript">
+	$('.bxslider').bxSlider({
+	  auto: true,
+	  autoControls: true,
+	  //adaptiveHeight: true,
+	});
+</script>
 </body>
 </html>
