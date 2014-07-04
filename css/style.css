@@ -1,7 +1,15 @@
+html{
+  background: #fff
+}
+
+body, .top-wrap{
+  max-width: 1366px;
+  margin:0 auto;
+}
+
 body
 {
   font-family: Open Sans,sans-serif;
-  max-width: 1366px;
 }
 
 a
