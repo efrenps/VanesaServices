@@ -13,6 +13,11 @@ $('#main-slider').flexslider({
     slideshowSpeed: 3500
 });
 
+$('#gallery-slider').flexslider({
+    animation: "fade",
+    slideshowSpeed: 3500
+});
+
 $('.flexslider').flexslider({
     animation: "slide",
     controlNav: "thumbnails",
