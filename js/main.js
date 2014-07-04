@@ -23,10 +23,12 @@ $('.top-nav').onePageNav();
 
 $(window).scroll( function() {
     var value = $(this).scrollTop();
-    if ( value > 350 )
-        $(".top-nav li").css("padding", "20px 15px 0px");
-    else
-        $(".top-nav li").css("padding", "30px 15px 10px");
+    if (window.innerWidth > 769) {
+        if ( value > 350 )
+            $(".top-nav li").css("padding", "20px 15px 0px");    
+        else
+            $(".top-nav li").css("padding", "30px 15px 10px");
+    }
 });
 
 $(window).scroll( function() {
